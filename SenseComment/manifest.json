@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "SenseComment",
+    "version": "0.1.0",
+    "author": "baintuyev@gmail.com",
+    "minimum_chrome_version": "116",
+    "description": "A plugin for Chrome that determines the mood of the text",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["yt_content_script.js", "vk_content_script.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}
