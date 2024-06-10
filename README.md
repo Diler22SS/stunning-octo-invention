@@ -8,17 +8,17 @@ Sense Comment - это расширение Chrome для анализа тон�
 
 ## Установка
 1. Клонирование репозитория
-  git clone https://github.com/Diler22SS/stunning-octo-invention.git
+  - git clone https://github.com/Diler22SS/stunning-octo-invention.git
 ### Установка сервера
 3. Создание виртуального окружения
-  python -m venv venv
+  - python -m venv venv
 4. Активируйте виртуальное окружение
-  Для Windows: venv\Scripts\activate
-  Для macOS и Linux: source venv/bin/activate
+  - Для Windows: venv\Scripts\activate
+  - Для macOS и Linux: source venv/bin/activate
 5. Установка зависимостей
-  pip install -r ./server/requirements.txt
+  - pip install -r ./server/requirements.txt
 6. Запуск сервера
-  python ./server/main.py
+  - python ./server/main.py
 
 ### Установка расширения
 В браузере Chrome в chrome://extensions/ необходимо включить режим разработчика. Загрузите распакованное расширение.
