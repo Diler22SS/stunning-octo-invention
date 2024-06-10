@@ -1,7 +1,24 @@
 # SenseComment
-SenseComment is a Chrome extension for sentiment analysis of text comments on web pages, including YouTube and VKontakte, as well as any selected text on a web page.
+Sense Comment - это расширение Chrome для анализа тональности текстовых комментариев на веб-страницах, включая YouTube и ВКонтакте, а также любого выделенного текста на веб-странице.
 
-## Features
-- Real-time sentiment analysis: Automatically analyze the sentiment of comments as they appear on YouTube and VKontakte pages.
-- Text selection analysis: Analyze the sentiment of any selected text on a web page.
-- Emoji representation: Results are represented with emojis for easy interpretation: 😡 for negative sentiment, 😀 for positive sentiment, and 😐 for neutral sentiment.
+## Функции
+- Анализ тональности в реальном времени: автоматический анализ тональности комментариев по мере их появления на страницах YouTube и ВКонтакте.
+- Анализ выделенного текста: анализируйте настроение любого выделенного текста на веб-странице.
+- Отображение эмодзи: результаты отображаются с помощью эмодзи для удобства интерпретации: 😡 для негативного настроения, 😀 для позитивного настроения и 😐 для нейтрального настроения.
+
+## Установка
+1. Клонирование репозитория
+git clone https://github.com/Diler22SS/stunning-octo-invention.git
+### Установка сервера
+3. Создание виртуального окружения
+python -m venv venv
+4. Активируйте виртуальное окружение
+Для Windows: venv\Scripts\activate
+Для macOS и Linux: source venv/bin/activate
+5. Установка зависимостей
+pip install -r ./server/requirements.txt
+6. Запуск сервера
+python ./server/main.py
+
+### Установка расширения
+В браузере Chrome в chrome://extensions/ необходимо включить режим разработчика. Загрузите распакованное расширение.
